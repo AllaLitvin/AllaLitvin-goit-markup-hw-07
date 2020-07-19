@@ -36,7 +36,7 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03px;
-  color: #757575;
+  color: #212121;
 }
 
 .section-text {
@@ -619,7 +619,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-family: "Roboto", sans-serif;
-  color: #757575;
+  color: #212121;
   text-decoration: none;
   font-size: 14px;
   font-style: normal;
