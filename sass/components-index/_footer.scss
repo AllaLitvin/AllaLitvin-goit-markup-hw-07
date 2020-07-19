@@ -81,11 +81,13 @@
   background: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
   cursor: pointer;
+
   transition-property: background-color;
   transition: $transition;
 
-  a:hover {
+  &:hover {
     background-color: $blue;
+    transition: $transition;
   }
 }
 

@@ -1,6 +1,5 @@
 /*advantages options*/
 .features {
-  @extend .contanier;
   padding-bottom: 0px;
 }
 
@@ -9,8 +8,8 @@
   margin-bottom: 0px;
   padding-left: 0px;
   justify-content: space-between;
-  font-family: var(--font-family);
-  color: var(--very-dark-grey-color);
+  font-family: $font-family;
+  color: $dark-grey-color;
   text-decoration: none;
   font-size: 14px;
   font-style: normal;

@@ -1,6 +1,4 @@
-/*team section */
 .ourteam {
-  @extend .section;
   background-color: #f5f4fa;
 }
 .team {
@@ -13,7 +11,6 @@
   justify-content: space-between;
   padding-right: 30px;
 }
-
 .members {
   display: block;
   align-items: center;
@@ -21,12 +18,10 @@
   border-radius: 4px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
-
-  &:not(last-child) {
+  &:not(:last-child) {
     margin-right: 30px;
   }
 }
-
 .name {
   text-align: center;
   margin-top: 30px;
@@ -36,7 +31,6 @@
   line-height: 24px;
   letter-spacing: 0.03px;
 }
-
 .position {
   text-align: center;
   margin-top: 10px;
@@ -54,7 +48,6 @@
   margin-bottom: 24px;
   justify-content: center;
   margin-top: 16px;
-
   .links {
     a {
       display: flex;
@@ -66,7 +59,11 @@
       cursor: pointer;
       transition-property: background-color;
       transition: $transition;
-      &:hover,
+      &:hover {
+        .social-icon {
+          fill: $white;
+        }
+      }
       &:focus {
         .social-icon {
           fill: $white;
@@ -75,20 +72,19 @@
     }
   }
 }
-
 .links {
+  a {
+    &:hover {
+      background-color: $blue;
+    }
+    &:focus {
+      background-color: $blue;
+    }
+  }
   &:last-child {
     padding-right: 0px;
   }
-
-  a {
-    &:hover,
-    &:focus {
-      background-color: var(--blue);
-    }
-  }
 }
-
 .social-icon {
   width: 20px;
   height: 20px;

@@ -16,25 +16,25 @@
     line-height: 42px;
     letter-spacing: 0.03px;
     color: $very-dark-grey-color;
+  }
 
-    &-item {
-      margin-top: 30px;
-      margin-bottom: 10px;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: 0.03px;
-      color: $very-dark-grey-color;
+  &-item {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03px;
+    color: $dark-grey-color;
+  }
 
-      &-text {
-        margin: 0px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03px;
-        color: $dark-grey-color;
-      }
-    }
+  &-text {
+    margin: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03px;
+    color: $dark-grey-color;
   }
 }

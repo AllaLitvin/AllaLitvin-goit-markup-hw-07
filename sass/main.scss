@@ -1,4 +1,6 @@
 @import "./utils/variables";
+@import "./components-index/container";
+@import "./components-index/section-options";
 @import "./components-index/body";
 @import "./components-index/main-logo";
 @import "./components-index/main-navigation";
@@ -7,7 +9,7 @@
 @import "./components-index/modal";
 @import "./components-index/advantages-sec";
 @import "./components-index/aboutcompany-sec";
-@import "./components-index/customers-sec";
 @import "./components-index/team-sec";
-@import "./components-index/section-options";
+@import "./components-index/customers-sec";
+
 @import "./components-index/footer";

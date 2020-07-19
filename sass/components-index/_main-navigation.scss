@@ -1,5 +1,6 @@
+/*navigation*/
+
 .main-nav {
-  @extend .container;
   display: flex;
   align-items: center;
   padding-bottom: 0px;
@@ -7,11 +8,15 @@
   border-bottom: 1px solid #ececec;
 }
 
+.list {
+  list-style: $list;
+}
+
 .site-nav {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: var(--font-family);
+  font-family: $font-family;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -25,7 +30,7 @@
   }
 
   .link.current {
-    color: var(--blue);
+    color: $blue;
 
     &::after {
       content: "";
@@ -36,29 +41,28 @@
       height: 4px;
       border-radius: 2px;
       transition: step-end;
-      background-color: var(--blue);
-      transition-property: background-color;
-      transition: var(--transition);
+      background-color: $blue;
+      transition: $transition;
     }
   }
 
   .link {
     position: relative;
     display: block;
-    color: var(--very-dark-grey-color);
+    color: $very-dark-grey-color;
     padding-top: 32px;
     padding-bottom: 33px;
     text-decoration: none;
 
     &:hover {
-      color: var(--blue);
+      color: $blue;
       &::after {
-        background-color: var(--blue);
+        background-color: $blue;
         transform: scaleX(1);
       }
     }
     &:focus {
-      color: var(--blue);
+      color: $blue;
     }
     &::after {
       content: "";
@@ -69,7 +73,7 @@
       height: 4px;
       border-radius: 2px;
       transition-property: background-color;
-      transition: var(--transition);
+      transition: $transition;
     }
   }
 }

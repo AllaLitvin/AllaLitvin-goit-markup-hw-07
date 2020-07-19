@@ -8,14 +8,6 @@
   text-decoration: none;
 }
 
-.page-header .logo {
-  font-size: 26px;
-}
-
-.footer .logo {
-  font-size: 22px;
-  padding-top: 45px;
-}
 .studio {
   font-family: "Ralewey", sans-serif;
   font-weight: bold;
@@ -23,10 +15,19 @@
   margin-right: 85px;
 }
 
+.page-header .logo {
+  font-size: 26px;
+}
+
 .page-header .studio {
   font-size: 26px;
   line-height: 31px;
   color: $black-color;
+}
+
+.footer .logo {
+  font-size: 22px;
+  padding-top: 45px;
 }
 
 .footer .studio {
