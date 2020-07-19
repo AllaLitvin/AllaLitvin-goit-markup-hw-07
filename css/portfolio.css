@@ -19,6 +19,10 @@
           box-sizing: inherit;
 }
 
+.list {
+  list-style: none;
+}
+
 /*main logo*/
 .logo {
   display: -webkit-box;
