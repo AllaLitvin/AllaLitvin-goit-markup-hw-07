@@ -1,0 +1,36 @@
+/*main logo*/
+.logo {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.03px;
+  color: $blue;
+  text-decoration: none;
+}
+
+.page-header .logo {
+  font-size: 26px;
+}
+
+.footer .logo {
+  font-size: 22px;
+  padding-top: 45px;
+}
+.studio {
+  font-family: "Ralewey", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.03px;
+  margin-right: 85px;
+}
+
+.page-header .studio {
+  font-size: 26px;
+  line-height: 31px;
+  color: $black-color;
+}
+
+.footer .studio {
+  font-size: 22px;
+  color: $white;
+  text-decoration: none;
+}

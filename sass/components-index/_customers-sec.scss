@@ -1,0 +1,49 @@
+.partners {
+  padding-top: 94px;
+}
+
+.customers {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  justify-content: space-between;
+
+  &-icon {
+  fill: $foricon;
+  }
+}
+
+.examples a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  margin-right: 30px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition-property: background-color;
+   transition: $transition;
+
+      a {&:hover,
+        &:focus {
+  border-color: $blue;
+  }
+}
+
+}
+
+.examples {
+	a {
+    &:hover,
+    &:focus {
+			.customers-icon {
+        fill: $blue;} 
+      }
+    }      
+
+&:last-child {
+  margin-right: 0px;
+    } 
+}
