@@ -74,15 +74,14 @@
 }
 .links {
   a {
-    &:hover {
-      background-color: $blue;
-    }
+    &:hover,
     &:focus {
       background-color: $blue;
     }
-  }
-  &:last-child {
-    padding-right: 0px;
+
+    &:last-child {
+      padding-right: 0px;
+    }
   }
 }
 .social-icon {

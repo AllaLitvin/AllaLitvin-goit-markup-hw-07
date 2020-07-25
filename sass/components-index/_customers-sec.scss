@@ -23,20 +23,16 @@
     border-radius: 4px;
     transition-property: background-color;
     transition: $transition;
-    &:hover {
+    &:hover,
+    &:focus {
       border-color: $blue;
       .customers-icon {
         fill: $blue;
       }
     }
-    &:focus {
-      border-color: var$blue;
-      .customers-icon {
-        fill: $blue;
-      }
+
+    &:last-child {
+      margin-right: 0px;
     }
-  }
-  &:last-child {
-    margin-right: 0px;
   }
 }

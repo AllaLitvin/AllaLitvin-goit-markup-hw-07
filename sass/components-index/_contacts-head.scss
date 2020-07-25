@@ -27,11 +27,9 @@
   transition-property: background-color;
   transition: $transition;
 
-  a {
-    &:hover,
-    &:focus {
-      color: $blue;
-    }
+  &:hover,
+  &:focus {
+    color: $blue;
   }
 
   .contacts-icon {

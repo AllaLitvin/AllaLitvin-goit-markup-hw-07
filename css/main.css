@@ -238,7 +238,7 @@
   transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.items a a:hover, .items a a:focus {
+.items a:hover, .items a:focus {
   color: #2196f3;
 }
 
@@ -384,7 +384,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 528px;
+  max-width: 528px;
   height: 581px;
   padding: 40px;
   background: #ffffff;
@@ -590,13 +590,13 @@
   content: none;
 }
 
-.checkbox input[type="checkbox"]:focus + label::after {
+.checkbox input[type="checkbox"]:focus:checked + label::after {
   content: "";
 }
 
-.checkbox input[type="checkbox"]:checked + label::before {
+.checkbox input[type="checkbox"]:focus:checked + label::before {
   background-color: #2196f3;
-  border-color: #2196f3;
+  border: #2196f3;
 }
 
 .rules {
@@ -826,15 +826,11 @@
   fill: #ffffff;
 }
 
-.links a:hover {
+.links a:hover, .links a:focus {
   background-color: #2196f3;
 }
 
-.links a:focus {
-  background-color: #2196f3;
-}
-
-.links:last-child {
+.links a:last-child {
   padding-right: 0px;
 }
 
@@ -885,23 +881,15 @@
   transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.examples a:hover {
+.examples a:hover, .examples a:focus {
   border-color: #2196f3;
 }
 
-.examples a:hover .customers-icon {
+.examples a:hover .customers-icon, .examples a:focus .customers-icon {
   fill: #2196f3;
 }
 
-.examples a:focus {
-  border-color: var #2196f3;
-}
-
-.examples a:focus .customers-icon {
-  fill: #2196f3;
-}
-
-.examples:last-child {
+.examples a:last-child {
   margin-right: 0px;
 }
 

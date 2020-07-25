@@ -61,7 +61,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 528px;
+  max-width: 528px;
   height: 581px;
   padding: 40px;
   background: #ffffff;
@@ -240,13 +240,13 @@
   content: none;
 }
 
-.checkbox input[type="checkbox"]:focus + label::after {
+.checkbox input[type="checkbox"]:focus:checked + label::after {
   content: "";
 }
 
-.checkbox input[type="checkbox"]:checked + label::before {
+.checkbox input[type="checkbox"]:focus:checked + label::before {
   background-color: $blue;
-  border-color: $blue;
+  border: $blue;
 }
 
 .rules {
