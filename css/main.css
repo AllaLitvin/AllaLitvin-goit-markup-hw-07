@@ -598,11 +598,11 @@
   content: none;
 }
 
-.checkbox input[type="checkbox"]:focus:checked + label::after {
+.checkbox input[type="checkbox"]:checked + label::after {
   content: "";
 }
 
-.checkbox input[type="checkbox"]:focus:checked + label::before {
+.checkbox input[type="checkbox"]:checked + label::before {
   background-color: #2196f3;
   border: #2196f3;
 }
@@ -1045,7 +1045,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   padding-bottom: 20px;
-  display: block;
   margin: 0px;
 }
 

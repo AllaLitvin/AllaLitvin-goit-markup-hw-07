@@ -72,7 +72,6 @@
   transform: translate(-50%, -50%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .form-title {
@@ -242,11 +241,11 @@
   content: none;
 }
 
-.checkbox input[type="checkbox"]:focus:checked + label::after {
+.checkbox input[type="checkbox"]:checked + label::after {
   content: "";
 }
 
-.checkbox input[type="checkbox"]:focus:checked + label::before {
+.checkbox input[type="checkbox"]:checked + label::before {
   background-color: $blue;
   border: $blue;
 }
