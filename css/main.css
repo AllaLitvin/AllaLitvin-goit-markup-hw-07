@@ -159,8 +159,10 @@
   -webkit-transition: step-end;
   transition: step-end;
   background-color: #2196f3;
-  -webkit-transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link {
@@ -196,8 +198,10 @@
   border-radius: 2px;
   -webkit-transition-property: background-color;
   transition-property: background-color;
-  -webkit-transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*contacts */
@@ -234,8 +238,10 @@
   color: #757575;
   -webkit-transition-property: background-color;
   transition-property: background-color;
-  -webkit-transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .items a:hover, .items a:focus {
@@ -393,8 +399,10 @@
   border-radius: 4px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  -webkit-transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-title {
@@ -662,6 +670,10 @@
   padding-top: 94px;
 }
 
+a {
+  list-style: none;
+}
+
 .works {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -723,7 +735,6 @@
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.03px;
-  list-style: none;
 }
 
 .section-item.company:last-child {
@@ -814,8 +825,10 @@
   cursor: pointer;
   -webkit-transition-property: background-color;
   transition-property: background-color;
-  -webkit-transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social .links a:hover .social-icon {
@@ -877,8 +890,10 @@
   border-radius: 4px;
   -webkit-transition-property: background-color;
   transition-property: background-color;
-  -webkit-transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples a:hover, .examples a:focus {
